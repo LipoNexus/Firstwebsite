@@ -1,22 +1,22 @@
 {
   "meta": {
-    "title": "About LipoNexus | UC San Diego Spinout Commercializing MASLD Blood Test",
-    "description": "LipoNexus is a UC San Diego spinout developing best-in-class blood tests for Fatty Liver Disease and metabolic-associated diseases to improve patient care. Backed by decades of NIH investment."
+    "title": "About LipoNexus | UC San Diego Spinout Bringing Root-Cause MASLD Diagnostics to Practitioners",
+    "description": "LipoNexus is a UC San Diego spinout commercializing the first accurate non-invasive blood test for Fatty Liver Disease, built on decades of NIH-funded lipidomics research and validated in 500+ patients."
   },
   "hero": {
     "badge": "Our Story",
-    "headline": "A UC San Diego Spinout Commercializing Its First Test",
-    "body": "LipoNexus is commercializing best-in-class blood tests for Fatty Liver (MASLD/MASH) and metabolic-associated diseases to improve patient care. Co-founded by UC San Diego professors and physicians who are leaders in the fields of Lipidomics and Fatty Liver Disease, our technology is the product of decades of NIH investment and rigorous clinical science."
+    "headline": "Giving Functional Medicine Practitioners the Test They've Been Missing",
+    "body": "LipoNexus is commercializing the first best-in-class blood test for Fatty Liver Disease (MASLD/MASH) — a tool built specifically for practitioners who want to identify and treat metabolic dysfunction at its root cause. Co-founded by UC San Diego professors and physicians who are world leaders in Lipidomics and Hepatology, our technology is the product of decades of NIH investment and rigorous clinical science."
   },
   "mission": {
     "badge": "Mission",
     "headline": "Our Mission",
-    "body": "To develop best-in-class blood tests for Fatty Liver and metabolic-associated diseases — enabling earlier diagnosis, better treatment decisions, and healthier outcomes for patients worldwide. We are offering a strategic investment opportunity to bring this breakthrough to the world."
+    "body": "To equip functional medicine and integrative health practitioners with the most accurate, accessible, and actionable diagnostic tools for Fatty Liver Disease and metabolic-associated conditions — enabling earlier intervention, personalized treatment, and measurably better patient outcomes."
   },
   "approach": {
-    "badge": "Science",
+    "badge": "The Science",
     "headline": "Decades of NIH Investment Behind Our Technology",
-    "body": "The LipoNexus test was developed by a founder of the field of Lipidomics and is the product of decades of NIH investment. Our 15-lipid panel directly measures inflammatory lipid biomarkers — the root cause of MASLD — using commercial clinical laboratories and mass spectrometry.",
+    "body": "The LipoNexus test was developed by the founder of the field of Lipidomics and is the product of decades of NIH-funded research. Our 15-lipid panel directly measures disease-causing inflammatory lipid biomarkers — the root cause of MASLD — using commercial clinical laboratories and mass spectrometry.",
     "points": [
       {
         "title": "$77M NIH Grant (2003–2013)",
@@ -41,20 +41,20 @@
     "headline": "What We Stand For",
     "items": [
       {
-        "title": "Scientific Rigor",
-        "description": "Every claim is backed by data — from $77M in NIH-funded research to a 500-patient published clinical study."
+        "title": "Root-Cause Science",
+        "description": "Every claim is backed by data — from $77M in NIH-funded lipidomics research to a 500-patient published clinical study. We measure what's actually driving disease."
       },
       {
         "title": "Patient Impact",
-        "description": "Only 10% of people with Fatty Liver Disease are diagnosed. We exist to change that — by making accurate, non-invasive screening accessible to all."
+        "description": "Only 10% of people with Fatty Liver Disease are diagnosed. We exist to change that — by giving practitioners the tools to identify and reverse MASLD before it progresses."
       },
       {
-        "title": "Proactive Medicine",
-        "description": "MASLD is often discovered only after disease progression. Routine, widely accessible non-invasive screening enables early detection and fully reverses the disease."
+        "title": "Proactive, Preventive Medicine",
+        "description": "MASLD is fully reversible when caught early. We build tools for practitioners who believe in getting ahead of disease — not just managing it after the damage is done."
       },
       {
-        "title": "Collaboration",
-        "description": "We partner with commercial labs, healthcare providers, and biopharma companies to maximize reach and impact across Medicine and Companion Diagnostics."
+        "title": "Practitioner Partnership",
+        "description": "We partner directly with functional medicine and integrative health practitioners to ensure LipoNexus testing is accessible, actionable, and meaningful in clinical practice."
       }
     ]
   }

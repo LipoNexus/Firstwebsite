@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Contact LipoNexus",
-    "description": "Contact LipoNexus for investment, partnership, or collaboration inquiries. Reach Andrew Dennis, CEO, at adennis@liponexus.com or (617) 548-7881."
+    "title": "Contact LipoNexus | Practitioners, Partners & Investors",
+    "description": "Connect with LipoNexus to bring the MASLD blood test to your functional medicine practice, explore partnership opportunities, or discuss investment. Reach Andrew Dennis, CEO, at adennis@liponexus.com."
   },
   "hero": {
     "badge": "Get in Touch",
-    "headline": "Let's Start a Conversation",
-    "body": "We welcome conversations with healthcare-focused investors, strategic corporate partners, and clinical collaborators. Contact us to discuss our current Seed funding round, licensing opportunities, or biopharma partnerships."
+    "headline": "Let's Talk About Your Patients",
+    "body": "Whether you're a functional medicine or integrative health practitioner looking to offer MASLD testing, a clinical lab or health system exploring a partnership, or a healthcare-focused investor — we'd love to connect. Reach out to learn how LipoNexus can support your practice and your patients."
   },
   "info": {
     "name": "Andrew Dennis, MBA",
@@ -22,7 +22,7 @@
     "fields": [
       { "name": "name", "label": "Full Name", "type": "text", "required": true },
       { "name": "email", "label": "Email Address", "type": "email", "required": true },
-      { "name": "organization", "label": "Organization", "type": "text", "required": false },
+      { "name": "organization", "label": "Practice or Organization", "type": "text", "required": false },
       { "name": "subject", "label": "Subject", "type": "text", "required": true },
       { "name": "message", "label": "Message", "type": "textarea", "required": true }
     ],

@@ -1,62 +1,62 @@
 {
   "meta": {
-    "title": "LipoNexus | First Blood Test for Early Detection of Fatty Liver Disease (MASLD)",
-    "description": "LipoNexus is the first and only accurate non-invasive blood test for Fatty Liver Disease (MASLD) using inflammatory lipid biomarkers. 95%+ accuracy, 99% specificity — via a simple blood draw."
+    "title": "LipoNexus | Root-Cause Blood Test for Fatty Liver Disease (MASLD) — For Functional Medicine Practitioners",
+    "description": "LipoNexus gives functional medicine practitioners the first accurate non-invasive blood test for MASLD. A 15-lipid panel targeting root-cause inflammatory biomarkers — 95%+ accuracy, 99% specificity, via a simple blood draw."
   },
   "hero": {
-    "badge": "Metabolic Disease Diagnostics",
-    "headline": "The First Blood Test for Early Detection of Fatty Liver Disease",
-    "subheadline": "LipoNexus delivers the first non-invasive blood test for early detection and diagnosis of Fatty Liver Disease (MASLD) through inflammatory lipid biomarkers — 95%+ accuracy, 99% specificity, via a simple blood draw.",
+    "badge": "For Functional Medicine Practitioners",
+    "headline": "The Root-Cause Blood Test Your Metabolic Patients Need",
+    "subheadline": "Give your patients the first non-invasive, highly accurate blood test for Fatty Liver Disease (MASLD). Our 15-lipid panel directly measures the inflammatory lipid biomarkers driving metabolic dysfunction — 95%+ accuracy, 99% specificity, via a simple blood draw.",
     "cta": { "label": "Partner With Us", "href": "/contact" },
-    "secondaryCta": { "label": "Investor Information", "href": "/investors" }
+    "secondaryCta": { "label": "See the Science", "href": "/about" }
   },
   "problem": {
-    "badge": "The Problem",
-    "headline": "MASLD: The Next Emerging Healthcare Crisis",
-    "body": "Metabolic Associated Steatotic Liver Disease (MASLD) is the leading cause of chronic liver disease, impaired liver function, and early death. 1 in 3 Americans has MASLD — yet only 10% are diagnosed, because early disease is often asymptomatic and existing tests are inaccurate, invasive, or inaccessible. Early diagnosis is key: the disease is fully reversible with weight loss or new therapeutics.",
+    "badge": "The Clinical Gap",
+    "headline": "Your Metabolic Patients Are Likely Undiagnosed",
+    "body": "Metabolic Associated Steatotic Liver Disease (MASLD) affects 1 in 3 of your patients — yet 90% are undiagnosed because existing tests are invasive, inaccurate, or inaccessible. As a functional medicine practitioner, you know MASLD is rooted in metabolic dysfunction and inflammatory lipid dysregulation. Now you have a test that matches your root-cause approach: early, precise, and actionable.",
     "stats": [
       { "value": "80M", "label": "Americans affected by MASLD" },
-      { "value": "2B", "label": "People affected globally" },
-      { "value": "10%", "label": "Of patients currently diagnosed" },
-      { "value": "$1T", "label": "US economic burden by 2030" }
+      { "value": "90%", "label": "Go undiagnosed today" },
+      { "value": "95%+", "label": "Test accuracy" },
+      { "value": "100%", "label": "Reversible when caught early" }
     ]
   },
   "solution": {
-    "badge": "Our Solution",
-    "headline": "The First & Only Accurate Non-Invasive Blood Test for MASLD",
-    "body": "LipoNexus is a UC San Diego spinout commercializing the first best-in-class MASLD blood test with greater than 95% accuracy. Our 15-lipid panel, run via mass spectrometry in commercial clinical laboratories, directly measures disease-causing and disease-mediating inflammatory lipid biomarkers — the root cause of the disease.",
+    "badge": "Clinical Utility",
+    "headline": "A Precision Test Built for Root-Cause Medicine",
+    "body": "Developed by the scientific founder of the field of Lipidomics at UC San Diego, the LipoNexus test measures 15 inflammatory lipid biomarkers via mass spectrometry — the same root-cause mechanisms your practice targets. It runs through commercial clinical labs and integrates seamlessly into your existing lab ordering workflow.",
     "features": [
       {
         "icon": "droplet",
-        "title": "Simple Blood Draw",
-        "description": "Detect and diagnose MASLD with a simple blood draw — no imaging, no biopsy, no specialist required."
+        "title": "Simple Lab Integration",
+        "description": "A standard blood draw processed through commercial clinical labs — no imaging, no biopsy, no specialist referral required. Fits your existing ordering workflow."
       },
       {
         "icon": "microscope",
         "title": "95%+ Accuracy",
-        "description": "15-lipid panel via mass spectrometry achieves 95%+ accuracy and 99% specificity — highest of any blood test on the market."
+        "description": "15-lipid panel via mass spectrometry achieves 95%+ accuracy and 99% specificity — validated against liver biopsy. The highest sensitivity of any blood test on the market."
       },
       {
         "icon": "clock",
-        "title": "Early Detection",
-        "description": "Identify MASLD at early, fully reversible stages — before symptoms or organ damage appear. Enables routine population screening."
+        "title": "Catch It Before Symptoms",
+        "description": "Identify MASLD at early, fully reversible stages — before symptoms, elevated liver enzymes, or imaging findings appear. Enable true preventive and proactive care."
       },
       {
         "icon": "chart",
-        "title": "Therapy Monitoring",
-        "description": "Monitor treatment response to GLP-1 agonists (Wegovy) and new MASLD/MASH therapeutics (Rezdiffra) over time."
+        "title": "Track Treatment Response",
+        "description": "Objectively monitor your patients' response to GLP-1 agonists, dietary protocols, weight loss interventions, and new MASLD/MASH therapeutics over time."
       }
     ]
   },
   "team": {
-    "headline": "Executive Team with Scientific, Medical & Industry Expertise",
-    "subheadline": "Co-founded by UC San Diego professors and physicians who are leaders in the fields of Lipidomics and Fatty Liver Disease, with executives from Quest Diagnostics, Dexcom, Pfizer, and Biocom.",
+    "headline": "Science You Can Trust, Built by Lipidomics and Hepatology Leaders",
+    "subheadline": "Co-founded by the scientific founder of the field of Lipidomics and the leading Key Opinion Leader in Fatty Liver Disease at UC San Diego — the same researchers who define hepatology clinical guidelines.",
     "cta": { "label": "Meet the Full Team", "href": "/team" }
   },
   "cta": {
-    "headline": "Be the Catalyst Investor Who Helps Millions",
-    "body": "The world is waiting for a solution to Fatty Liver Disease. Partners and path are secured — we are ready to implement and launch the LipoNexus test. Join us and leave a lasting impact on global health.",
+    "headline": "Bring Precision Liver Diagnostics to Your Practice",
+    "body": "Your patients deserve early, accurate answers. The LipoNexus test gives you the most sensitive and specific non-invasive MASLD diagnostic available — so you can identify disease early, personalize treatment, and track real outcomes with confidence.",
     "primaryCta": { "label": "Get in Touch", "href": "/contact" },
-    "secondaryCta": { "label": "Investor Information", "href": "/investors" }
+    "secondaryCta": { "label": "See the Science", "href": "/about" }
   }
 }
