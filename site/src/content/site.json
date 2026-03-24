@@ -12,7 +12,7 @@
     { "label": "Home", "href": "/" },
     { "label": "About", "href": "/about" },
     { "label": "Team", "href": "/team" },
-    { "label": "Investors", "href": "/investors" },
+    { "label": "Investor Info", "href": "/investors" },
     { "label": "Contact", "href": "/contact" }
   ],
   "footer": {
@@ -21,7 +21,7 @@
       { "label": "Home", "href": "/" },
       { "label": "About", "href": "/about" },
       { "label": "Team", "href": "/team" },
-      { "label": "Investors", "href": "/investors" },
+      { "label": "Investor Info", "href": "/investors" },
       { "label": "Contact", "href": "/contact" },
       { "label": "Privacy Policy", "href": "/privacy" }
     ]
