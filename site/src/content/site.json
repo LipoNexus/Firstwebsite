@@ -1,10 +1,12 @@
 {
   "company": {
     "name": "LipoNexus",
-    "tagline": "Blood Test for Early Detection of Fatty Liver Disease",
-    "mission": "Developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers.",
-    "location": "San Diego, California",
-    "email": "partnering@liponexus.com",
+    "tagline": "The First Blood Test for Early Detection of Fatty Liver Disease",
+    "mission": "Commercializing best-in-class blood tests for Fatty Liver (MASLD/MASH) and metabolic-associated diseases to improve patient care.",
+    "location": "San Diego, CA 92122",
+    "email": "adennis@liponexus.com",
+    "phone": "(617) 548-7881",
+    "website": "www.liponexus.com",
     "linkedin": "https://www.linkedin.com/company/liponexus",
     "domain": "liponexus.com"
   },
@@ -16,7 +18,7 @@
     { "label": "Contact", "href": "/contact" }
   ],
   "footer": {
-    "description": "Developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease.",
+    "description": "LipoNexus is commercializing the first non-invasive blood test for early detection of Fatty Liver Disease (MASLD) using inflammatory lipid biomarkers — 95%+ accuracy, via a simple blood draw.",
     "quickLinks": [
       { "label": "Home", "href": "/" },
       { "label": "About", "href": "/about" },

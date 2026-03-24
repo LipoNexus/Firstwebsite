@@ -1,16 +1,20 @@
 {
   "meta": {
-    "title": "Contact",
-    "description": "Contact LipoNexus for partnership, investment, or collaboration inquiries. Reach us at partnering@liponexus.com."
+    "title": "Contact LipoNexus",
+    "description": "Contact LipoNexus for investment, partnership, or collaboration inquiries. Reach Andrew Dennis, CEO, at adennis@liponexus.com or (617) 548-7881."
   },
   "hero": {
     "badge": "Get in Touch",
     "headline": "Let's Start a Conversation",
-    "body": "Contact partnering@liponexus.com to discuss investment, partnerships, and other opportunities in medicine, clinical trials, and companion diagnostics."
+    "body": "We welcome conversations with healthcare-focused investors, strategic corporate partners, and clinical collaborators. Contact us to discuss our current Seed funding round, licensing opportunities, or biopharma partnerships."
   },
   "info": {
-    "email": "partnering@liponexus.com",
-    "location": "San Diego, California",
+    "name": "Andrew Dennis, MBA",
+    "title": "Chief Executive Officer",
+    "email": "adennis@liponexus.com",
+    "phone": "(617) 548-7881",
+    "location": "San Diego, CA 92122",
+    "website": "www.liponexus.com",
     "linkedin": "https://www.linkedin.com/company/liponexus"
   },
   "form": {

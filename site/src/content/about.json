@@ -1,38 +1,38 @@
 {
   "meta": {
-    "title": "About LipoNexus",
-    "description": "Learn about LipoNexus's mission to develop a non-invasive blood test for early detection of Fatty Liver Disease using inflammatory lipid biomarkers."
+    "title": "About LipoNexus | UC San Diego Spinout Commercializing MASLD Blood Test",
+    "description": "LipoNexus is a UC San Diego spinout developing best-in-class blood tests for Fatty Liver Disease and metabolic-associated diseases to improve patient care. Backed by decades of NIH investment."
   },
   "hero": {
     "badge": "Our Story",
-    "headline": "Reimagining How Fatty Liver Disease Is Detected",
-    "body": "Founded in San Diego, California, LipoNexus was born from a simple but powerful insight: the inflammatory lipid landscape of the blood changes meaningfully as fatty liver disease progresses — and those changes can be measured accurately, non-invasively, and affordably."
+    "headline": "A UC San Diego Spinout Commercializing Its First Test",
+    "body": "LipoNexus is commercializing best-in-class blood tests for Fatty Liver (MASLD/MASH) and metabolic-associated diseases to improve patient care. Co-founded by UC San Diego professors and physicians who are leaders in the fields of Lipidomics and Fatty Liver Disease, our technology is the product of decades of NIH investment and rigorous clinical science."
   },
   "mission": {
     "badge": "Mission",
     "headline": "Our Mission",
-    "body": "To develop a highly accurate, non-invasive blood test for the early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers — enabling earlier intervention, better outcomes, and a healthier world."
+    "body": "To develop best-in-class blood tests for Fatty Liver and metabolic-associated diseases — enabling earlier diagnosis, better treatment decisions, and healthier outcomes for patients worldwide. We are offering a strategic investment opportunity to bring this breakthrough to the world."
   },
   "approach": {
     "badge": "Science",
-    "headline": "Our Scientific Approach",
-    "body": "Fatty liver disease is characterized by the dysregulation of lipid metabolism and the activation of hepatic inflammatory pathways. LipoNexus has identified a panel of inflammatory lipid biomarkers — including specific oxylipins, lysophospholipids, and ceramide species — that are robustly associated with disease presence, severity, and progression.",
+    "headline": "Decades of NIH Investment Behind Our Technology",
+    "body": "The LipoNexus test was developed by a founder of the field of Lipidomics and is the product of decades of NIH investment. Our 15-lipid panel directly measures inflammatory lipid biomarkers — the root cause of MASLD — using commercial clinical laboratories and mass spectrometry.",
     "points": [
       {
-        "title": "Biomarker Discovery",
-        "description": "Untargeted lipidomics in well-characterized patient cohorts to identify candidate biomarkers with strong disease association."
+        "title": "$77M NIH Grant (2003–2013)",
+        "description": "Established the field of Lipidomics via a National Institutes of Health 'Glue Grant' (U54 GM069338) for LIPID Metabolites And Pathways Strategy (LIPID MAPS®) — a multi-institutional initiative for detection, identification, and classification of all biological lipids."
       },
       {
-        "title": "Assay Development",
-        "description": "Translation of discovery findings into a targeted, quantitative, clinical-grade blood assay."
+        "title": "$2M NIH Grant (2018–2024)",
+        "description": "NIH Grant NIDDK 5 R01 DK105961 — 'Lipidomics Based Diagnostics for Nonalcoholic Steatohepatitis.' Lipidomics analysis of 2,000 biopsied patient samples from the NIDDK Biobank for development of MASLD and MASH diagnostics."
       },
       {
         "title": "Clinical Validation",
-        "description": "Rigorous validation against histological ground truth (liver biopsy) across diverse patient populations."
+        "description": "500-patient clinical study published in October 2024. Current test IP filed in 2024 with 6 patents total (3 issued, 3 filed). 95%+ accuracy and 99% specificity validated against histological ground truth (liver biopsy)."
       },
       {
         "title": "Regulatory Pathway",
-        "description": "Strategic planning toward FDA clearance and CMS reimbursement for widespread clinical adoption."
+        "description": "Laboratory Developed Test (LDT) launch Q2 2026 — validation and verification in a CLIA lab. FDA-approved test targeted for 2027. Widespread clinician adoption 2028+ driven by hepatology clinical guideline recommendations."
       }
     ]
   },
@@ -42,19 +42,19 @@
     "items": [
       {
         "title": "Scientific Rigor",
-        "description": "We hold our work to the highest standards of evidence — every claim is backed by data."
+        "description": "Every claim is backed by data — from $77M in NIH-funded research to a 500-patient published clinical study."
       },
       {
         "title": "Patient Impact",
-        "description": "Everything we build is ultimately in service of patients who deserve earlier answers and better care."
+        "description": "Only 10% of people with Fatty Liver Disease are diagnosed. We exist to change that — by making accurate, non-invasive screening accessible to all."
       },
       {
-        "title": "Transparency",
-        "description": "We communicate openly with partners, investors, and collaborators about our progress and challenges."
+        "title": "Proactive Medicine",
+        "description": "MASLD is often discovered only after disease progression. Routine, widely accessible non-invasive screening enables early detection and fully reverses the disease."
       },
       {
         "title": "Collaboration",
-        "description": "We believe the best science emerges from strong partnerships across academia, industry, and clinical medicine."
+        "description": "We partner with commercial labs, healthcare providers, and biopharma companies to maximize reach and impact across Medicine and Companion Diagnostics."
       }
     ]
   }

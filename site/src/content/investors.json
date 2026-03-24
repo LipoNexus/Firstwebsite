@@ -1,45 +1,72 @@
 {
   "meta": {
-    "title": "Investor Information",
-    "description": "LipoNexus investment opportunity: non-invasive blood test for the $5B+ liver diagnostics market. Contact us for partnership and investment inquiries."
+    "title": "Investor Information | LipoNexus",
+    "description": "LipoNexus investment opportunity: TAM $40B US market, SOM $1.7B. MASLD test launch 2026, profitability targeted 2027. Seed round open. Strategic exit via LabCorp, Roche, or PE acquisition."
   },
   "hero": {
-    "badge": "Investor Info",
-    "headline": "Request Investor Materials",
-    "body": "Provide your contact information to receive investor materials via email."
+    "badge": "Investment Opportunity",
+    "headline": "Offering a Strategic Investment Opportunity",
+    "body": "LipoNexus is a UC San Diego spinout seeking Seed investors to commercialize the first best-in-class MASLD blood test. Partners and path secured — ready to implement and launch. Funding enables profitability in 2027 via test launch."
   },
   "thesis": {
-    "headline": "Investment Thesis",
+    "headline": "Why Invest in LipoNexus",
     "points": [
       {
-        "title": "Large & Underserved Market",
-        "description": "Over 1 billion people globally have fatty liver disease, with the vast majority undiagnosed. The global liver disease diagnostics market exceeds $5 billion and is growing rapidly."
+        "title": "Multi-Billion Dollar US Market",
+        "description": "30% of US adults have MASLD — most are not diagnosed. TAM $40B, SAM $8B, SOM $1.7B (annual testing of 3% of at-risk US population). Market drivers: growing awareness, new therapeutics (Rezdiffra, GLP-1), and improved healthcare economics."
       },
       {
-        "title": "Proprietary Technology",
-        "description": "LipoNexus has identified a novel panel of inflammatory lipid biomarkers with strong intellectual property protection and a clear path to clinical validation."
+        "title": "International Revenue Opportunity",
+        "description": "40% of adults worldwide have MASLD. International target markets have 800M in population with disease prevalence similar to the US — including Brazil, Mexico, Japan, Germany, UK, France, South Korea, UAE, and Saudi Arabia."
       },
       {
-        "title": "First-Mover Advantage",
-        "description": "No blood-based test currently exists for accurate, non-invasive fatty liver disease staging. We are positioned to establish the category standard."
+        "title": "Best-in-Class Technology",
+        "description": "The only test directly measuring disease-causing and disease-mediating inflammatory lipid biomarkers. 95%+ accuracy and 99% specificity — highest sensitivity and specificity of any blood test. 500-patient clinical study published October 2024. 6 patents total (3 issued, 3 filed)."
       },
       {
-        "title": "Proven Team",
-        "description": "Our leadership and advisors bring extensive experience across lipid biochemistry, clinical hepatology, diagnostics development, and regulatory affairs."
+        "title": "De-Risked Commercial Strategy",
+        "description": "Two revenue streams: Medicine (license to Quest Diagnostic, Labcorp, Anthem, Kaiser Permanente) and Biopharma companion diagnostics (Lilly, Novo Nordisk, Gilead). MASLD test @ $349 launches Q3 2026. Profitability targeted 2027."
       },
       {
-        "title": "Multiple Revenue Streams",
-        "description": "Direct-to-lab licensing, pharma clinical trial partnerships, and consumer-facing wellness applications create diverse monetization pathways."
+        "title": "Clear Pipeline & Regulatory Path",
+        "description": "MASLD diagnostic test launch 2026, MASH severity diagnostic 2027. LDT launch Q2 2026; FDA-approved test 2027; widespread clinician adoption 2028+ via hepatology guidelines. Future pipeline: Comprehensive Liver Test, Cardiometabolic and Inflammatory indications."
       },
       {
-        "title": "Clear Regulatory Path",
-        "description": "Our IVD strategy targets FDA 510(k) clearance with a companion diagnostic pathway for NASH drug development programs."
+        "title": "Experienced Team & Valuation Comparables",
+        "description": "Co-founded by KOLs in Fatty Liver Disease and the scientific founder of the field of lipidomics. Executives with commercialization and clinical laboratory diagnostics experience. Valuation comparables: AGED Diagnostics $4M (Jul 2025), Fibronostics $6.5M (Apr 2025), Echosens $30M (Apr 2015)."
+      }
+    ]
+  },
+  "funding": {
+    "headline": "Use of Seed Funding",
+    "body": "Funding enables profitability in 2027 via test launch.",
+    "allocation": [
+      { "label": "R&D", "percent": 30 },
+      { "label": "Operations", "percent": 23 },
+      { "label": "Bus & Corp Dev", "percent": 18 },
+      { "label": "IP", "percent": 15 },
+      { "label": "Test Launch", "percent": 15 }
+    ],
+    "rounds": [
+      {
+        "name": "Seed (Now)",
+        "description": "Launch and sales of MASLD test with >95% accuracy, GLP-1 companion diagnostic and MASH severity test proof-of-concept, biopharma partnering."
+      },
+      {
+        "name": "Series A (Early 2027)",
+        "description": "MASLD sales expansion, launch of MASH severity test in 2027, clinical utility study for payor reimbursement, international expansion, metabolic and inflammatory diseases insights, companion diagnostics test launches."
+      },
+      {
+        "name": "Exit Strategy",
+        "description": "Exit through strategic corporate acquisition (e.g. LabCorp, Roche) or PE acquisition."
       }
     ]
   },
   "contact": {
     "headline": "Connect With Us",
-    "body": "We welcome conversations with healthcare-focused investors, strategic corporate partners, and research collaborators. Please reach out to discuss our current funding round and partnership opportunities.",
-    "email": "partnering@liponexus.com"
+    "body": "We welcome conversations with healthcare-focused investors, strategic corporate partners, and research collaborators. Please reach out to discuss our current Seed funding round and partnership opportunities.",
+    "email": "adennis@liponexus.com",
+    "phone": "(617) 548-7881",
+    "name": "Andrew Dennis, MBA — Chief Executive Officer"
   }
 }
