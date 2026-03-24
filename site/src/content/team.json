@@ -30,14 +30,112 @@
         "title": "Co-Founder",
         "bio": "Distinguished Professor of Chemistry, Biochemistry, and Pharmacology at UC San Diego. Founder of LIPID Metabolites And Pathways Strategy (LIPID MAPS®). A founder of the field of lipidomics and a leader in inflammation, lipid metabolism, and metabolic diseases.",
         "image": "/images/team/edward-dennis.jpg",
-        "linkedin": "#"
+        "linkedin": "#",
+        "university": {
+          "name": "UC San Diego",
+          "url": "https://ucsd.edu",
+          "logoUrl": "/images/universities/ucsd.svg"
+        },
+        "papers": [
+          {
+            "title": "Phospholipase A2 Enzymes: Physical Structure, Biological Function, Disease Implication, Chemical Inhibition, and Therapeutic Intervention",
+            "journal": "Chemical Reviews",
+            "year": 2011,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21910409/"
+          },
+          {
+            "title": "Eicosanoid storm in infection and inflammation",
+            "journal": "Nature Reviews Immunology",
+            "year": 2015,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26139350/"
+          },
+          {
+            "title": "A comprehensive classification system for lipids",
+            "journal": "Journal of Lipid Research",
+            "year": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15722563/"
+          },
+          {
+            "title": "A Mouse Macrophage Lipidome",
+            "journal": "Journal of Biological Chemistry",
+            "year": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20923771/"
+          },
+          {
+            "title": "Phospholipase A2 catalysis and lipid mediator lipidomics",
+            "journal": "BBA — Molecular and Cell Biology of Lipids",
+            "year": 2019,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30905345/"
+          },
+          {
+            "title": "Lipidomics reveals a remarkable diversity of lipids in human plasma",
+            "journal": "Journal of Lipid Research",
+            "year": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20671299/"
+          },
+          {
+            "title": "LIPID MAPS: Serving the next generation of lipid researchers with tools, resources, data, and training",
+            "journal": "Science Signaling",
+            "year": 2019,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30622195/"
+          }
+        ]
       },
       {
         "name": "Rohit Loomba, MD, MHSc",
         "title": "Co-Founder",
         "bio": "Professor and Chief, Division of Gastroenterology and Hepatology, Department of Medicine, UC San Diego Health Sciences. Founding Director, MASLD Research Center, UC San Diego. Key Opinion Leader in liver disease and MASH, working with all leading MASH therapeutics companies and clinical practice guidelines boards.",
         "image": "/images/team/rohit-loomba.jpg",
-        "linkedin": "#"
+        "linkedin": "#",
+        "university": {
+          "name": "UC San Diego",
+          "url": "https://ucsd.edu",
+          "logoUrl": "/images/universities/ucsd.svg"
+        },
+        "papers": [
+          {
+            "title": "The global NAFLD epidemic",
+            "journal": "Nature Reviews Gastroenterology & Hepatology",
+            "year": 2013,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24042449/"
+          },
+          {
+            "title": "Mechanisms and disease consequences of nonalcoholic fatty liver disease",
+            "journal": "Cell",
+            "year": 2021,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33989548/"
+          },
+          {
+            "title": "A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis (MAESTRO-NASH)",
+            "journal": "New England Journal of Medicine",
+            "year": 2024,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38324483/"
+          },
+          {
+            "title": "Farnesoid X nuclear receptor ligand obeticholic acid for non-cirrhotic, non-alcoholic steatohepatitis (FLINT): a multicentre, randomised, placebo-controlled trial",
+            "journal": "The Lancet",
+            "year": 2015,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25468160/"
+          },
+          {
+            "title": "Gut Microbiome-Based Metagenomic Signature for Non-invasive Detection of Advanced Fibrosis in Human Nonalcoholic Fatty Liver Disease",
+            "journal": "Cell Metabolism",
+            "year": 2017,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28467925/"
+          },
+          {
+            "title": "Modeling the epidemic of nonalcoholic fatty liver disease demonstrates an exponential increase in burden of disease",
+            "journal": "Hepatology",
+            "year": 2018,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28802062/"
+          },
+          {
+            "title": "Randomized, Controlled Trial of the FGF21 Analogue Pegozafermin in NASH (ENLIVEN)",
+            "journal": "New England Journal of Medicine",
+            "year": 2023,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37356033/"
+          }
+        ]
       }
     ]
   },
@@ -63,7 +161,56 @@
         "title": "Advisor",
         "bio": "Professor of Medicine, Physiology, and Molecular Pathology in the Division of Gastroenterology at Virginia Commonwealth University (VCU) Medical Center. Director of the Stravitz-Sanyal Institute for Liver Disease and Metabolic Health. Recognized global Key Opinion Leader active in hepatology guideline updates.",
         "image": "/images/team/arun-sanyal.jpg",
-        "linkedin": "#"
+        "linkedin": "#",
+        "university": {
+          "name": "Virginia Commonwealth University",
+          "url": "https://www.vcu.edu",
+          "logoUrl": "/images/universities/vcu.svg"
+        },
+        "papers": [
+          {
+            "title": "Pioglitazone, Vitamin E, or Placebo for Nonalcoholic Steatohepatitis (PIVENS Trial)",
+            "journal": "New England Journal of Medicine",
+            "year": 2010,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20427778/"
+          },
+          {
+            "title": "Nonalcoholic steatohepatitis: association of insulin resistance and mitochondrial abnormalities",
+            "journal": "Gastroenterology",
+            "year": 2001,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11266382/"
+          },
+          {
+            "title": "Design and validation of a histological scoring system for nonalcoholic fatty liver disease",
+            "journal": "Hepatology",
+            "year": 2005,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15915461/"
+          },
+          {
+            "title": "A multisociety Delphi consensus statement on new fatty liver disease nomenclature (MASLD/MASH)",
+            "journal": "Hepatology",
+            "year": 2023,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37364790/"
+          },
+          {
+            "title": "Obeticholic acid for the treatment of non-alcoholic steatohepatitis: interim analysis from a multicentre, randomised, placebo-controlled phase 3 trial (REGENERATE)",
+            "journal": "The Lancet",
+            "year": 2019,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31813633/"
+          },
+          {
+            "title": "Prospective Study of Outcomes in Adults with Nonalcoholic Fatty Liver Disease",
+            "journal": "New England Journal of Medicine",
+            "year": 2021,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34670043/"
+          },
+          {
+            "title": "A Placebo-Controlled Trial of Subcutaneous Semaglutide in Nonalcoholic Steatohepatitis",
+            "journal": "New England Journal of Medicine",
+            "year": 2021,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33185364/"
+          }
+        ]
       }
     ]
   }
