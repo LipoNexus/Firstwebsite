@@ -12,10 +12,10 @@
     "headline": "Leadership Team",
     "members": [
       {
-        "name": "Dr. Sarah Chen",
+        "name": "Andrew Dennis",
         "title": "Chief Executive Officer & Co-Founder",
-        "bio": "Dr. Chen brings over 15 years of experience in biotech leadership and clinical diagnostics. She holds a PhD in Biochemistry from UCSD and completed postdoctoral training at the Salk Institute. Prior to founding LipoNexus, she led diagnostics programs at two San Diego-based biotechs.",
-        "image": "/images/team/sarah-chen.jpg",
+        "bio": "Andrew Dennis brings over 15 years of experience in biotech leadership and clinical diagnostics. Prior to founding LipoNexus, he led diagnostics programs at two San Diego-based biotechs.",
+        "image": "/images/team/andrew-dennis.jpg",
         "linkedin": "#"
       },
       {
