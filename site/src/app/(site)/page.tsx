@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import homeData from "@/content/home.json";
 import teamData from "@/content/team.json";
 import siteData from "@/content/site.json";
@@ -42,34 +43,44 @@ export default function HomePage() {
       <section className="relative bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
         <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
-          <div className="max-w-3xl">
-            <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-6">
-              {hero.badge}
-            </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
-              {hero.headline}
-            </h1>
-            <p className="text-lg text-[#4A4A5A] leading-relaxed mb-8 max-w-2xl">
-              {hero.subheadline}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href={hero.cta.href}
-                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#100CC9] text-white font-medium hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20"
-              >
-                {hero.cta.label}
-              </Link>
-              <Link
-                href={hero.secondaryCta.href}
-                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-[#E2E2F0] text-[#1A1A2E] font-medium hover:border-[#100CC9] hover:text-[#100CC9] transition-colors duration-200"
-              >
-                {hero.secondaryCta.label}
-              </Link>
+          <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="flex-1 max-w-2xl">
+              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-6">
+                {hero.badge}
+              </span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
+                {hero.headline}
+              </h1>
+              <p className="text-lg text-[#4A4A5A] leading-relaxed mb-8 max-w-2xl">
+                {hero.subheadline}
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  href={hero.cta.href}
+                  className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#100CC9] text-white font-medium hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20"
+                >
+                  {hero.cta.label}
+                </Link>
+                <Link
+                  href={hero.secondaryCta.href}
+                  className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border border-[#E2E2F0] text-[#1A1A2E] font-medium hover:border-[#100CC9] hover:text-[#100CC9] transition-colors duration-200"
+                >
+                  {hero.secondaryCta.label}
+                </Link>
+              </div>
+            </div>
+            <div className="flex-shrink-0 flex justify-center">
+              <Image
+                src="/images/round liver image.png"
+                alt="Liver illustration"
+                width={400}
+                height={400}
+                className="w-72 h-72 lg:w-96 lg:h-96 object-contain drop-shadow-2xl"
+                priority
+              />
             </div>
           </div>
         </div>
-        {/* Decorative element */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-96 h-96 bg-[#100CC9] opacity-5 rounded-full blur-3xl pointer-events-none" />
       </section>
 
       {/* Problem */}

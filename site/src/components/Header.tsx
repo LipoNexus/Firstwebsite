@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import siteData from "@/content/site.json";
 
@@ -35,9 +36,14 @@ export default function Header() {
           className="flex items-center gap-2 group"
           aria-label="LipoNexus home"
         >
-          <span className="text-[#100CC9] font-bold text-xl tracking-tight font-[var(--font-heading)]">
-            Lipo<span className="text-[#1A1A2E]">Nexus</span>
-          </span>
+          <Image
+            src="/images/LipoNexus Logo.png"
+            alt="LipoNexus"
+            width={140}
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

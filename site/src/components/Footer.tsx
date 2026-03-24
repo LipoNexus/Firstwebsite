@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import siteData from "@/content/site.json";
 
 export default function Footer() {
@@ -11,9 +12,13 @@ export default function Footer() {
           {/* Column 1: Company Info */}
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-4" aria-label="LipoNexus home">
-              <span className="text-[#100CC9] font-bold text-xl tracking-tight">
-                Lipo<span className="text-white">Nexus</span>
-              </span>
+              <Image
+                src="/images/LipoNexus Logo.png"
+                alt="LipoNexus"
+                width={140}
+                height={40}
+                className="h-10 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed max-w-sm">
               {siteData.footer.description}
