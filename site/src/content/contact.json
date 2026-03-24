@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "Contact",
+    "description": "Contact LipoNexus for partnership, investment, or collaboration inquiries. Reach us at partnering@liponexus.com."
+  },
+  "hero": {
+    "badge": "Get in Touch",
+    "headline": "Let's Start a Conversation",
+    "body": "Whether you're a potential partner, investor, clinician, or researcher — we'd love to hear from you."
+  },
+  "info": {
+    "email": "partnering@liponexus.com",
+    "location": "San Diego, California",
+    "linkedin": "https://www.linkedin.com/company/liponexus"
+  },
+  "form": {
+    "headline": "Send Us a Message",
+    "fields": [
+      { "name": "name", "label": "Full Name", "type": "text", "required": true },
+      { "name": "email", "label": "Email Address", "type": "email", "required": true },
+      { "name": "organization", "label": "Organization", "type": "text", "required": false },
+      { "name": "subject", "label": "Subject", "type": "text", "required": true },
+      { "name": "message", "label": "Message", "type": "textarea", "required": true }
+    ],
+    "submitLabel": "Send Message"
+  }
+}

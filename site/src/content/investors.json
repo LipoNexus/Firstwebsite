@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "title": "Investor Information",
+    "description": "LipoNexus investment opportunity: non-invasive blood test for the $5B+ liver diagnostics market. Contact us for partnership and investment inquiries."
+  },
+  "hero": {
+    "badge": "Investment Opportunity",
+    "headline": "Investing in the Future of Liver Disease Diagnostics",
+    "body": "LipoNexus is addressing a massive unmet need in a rapidly growing market. We invite strategic investors and partners to join us in bringing this breakthrough diagnostic to patients worldwide."
+  },
+  "thesis": {
+    "headline": "Investment Thesis",
+    "points": [
+      {
+        "title": "Large & Underserved Market",
+        "description": "Over 1 billion people globally have fatty liver disease, with the vast majority undiagnosed. The global liver disease diagnostics market exceeds $5 billion and is growing rapidly."
+      },
+      {
+        "title": "Proprietary Technology",
+        "description": "LipoNexus has identified a novel panel of inflammatory lipid biomarkers with strong intellectual property protection and a clear path to clinical validation."
+      },
+      {
+        "title": "First-Mover Advantage",
+        "description": "No blood-based test currently exists for accurate, non-invasive fatty liver disease staging. We are positioned to establish the category standard."
+      },
+      {
+        "title": "Proven Team",
+        "description": "Our leadership and advisors bring extensive experience across lipid biochemistry, clinical hepatology, diagnostics development, and regulatory affairs."
+      },
+      {
+        "title": "Multiple Revenue Streams",
+        "description": "Direct-to-lab licensing, pharma clinical trial partnerships, and consumer-facing wellness applications create diverse monetization pathways."
+      },
+      {
+        "title": "Clear Regulatory Path",
+        "description": "Our IVD strategy targets FDA 510(k) clearance with a companion diagnostic pathway for NASH drug development programs."
+      }
+    ]
+  },
+  "contact": {
+    "headline": "Connect With Us",
+    "body": "We welcome conversations with healthcare-focused investors, strategic corporate partners, and research collaborators. Please reach out to discuss our current funding round and partnership opportunities.",
+    "email": "partnering@liponexus.com"
+  }
+}

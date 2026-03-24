@@ -1,0 +1,29 @@
+{
+  "company": {
+    "name": "LipoNexus",
+    "tagline": "Blood Test for Early Detection of Fatty Liver Disease",
+    "mission": "Developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers.",
+    "location": "San Diego, California",
+    "email": "partnering@liponexus.com",
+    "linkedin": "https://www.linkedin.com/company/liponexus",
+    "domain": "liponexus.com"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Team", "href": "/team" },
+    { "label": "Investors", "href": "/investors" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "footer": {
+    "description": "Developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease.",
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Team", "href": "/team" },
+      { "label": "Investors", "href": "/investors" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Privacy Policy", "href": "/privacy" }
+    ]
+  }
+}

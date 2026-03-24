@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "LipoNexus | Blood Test for Early Detection of Fatty Liver Disease",
+    "description": "LipoNexus is developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers."
+  },
+  "hero": {
+    "badge": "Precision Diagnostics",
+    "headline": "Early Detection of Fatty Liver Disease — from a Single Blood Test",
+    "subheadline": "LipoNexus is developing a highly accurate, non-invasive blood test that identifies Fatty Liver Disease earlier than any existing method — using inflammatory lipid biomarkers.",
+    "cta": { "label": "Partner With Us", "href": "/contact" },
+    "secondaryCta": { "label": "Learn More", "href": "/about" }
+  },
+  "problem": {
+    "badge": "The Problem",
+    "headline": "Fatty Liver Disease: A Silent Epidemic",
+    "body": "Non-alcoholic fatty liver disease (NAFLD) affects over 1 billion people worldwide, yet the majority remain undiagnosed until significant liver damage has occurred. Current diagnostic tools — liver biopsy and imaging — are expensive, invasive, operator-dependent, and often inaccessible.",
+    "stats": [
+      { "value": "1B+", "label": "People affected worldwide" },
+      { "value": "80%", "label": "Cases remain undiagnosed" },
+      { "value": "$100B+", "label": "Annual economic burden (US)" },
+      { "value": "#1", "label": "Cause of liver transplants by 2030" }
+    ]
+  },
+  "solution": {
+    "badge": "Our Solution",
+    "headline": "A Better Way to Detect Liver Disease",
+    "body": "LipoNexus leverages proprietary inflammatory lipid biomarker signatures to deliver a simple, accurate blood test. Our approach enables earlier diagnosis, disease staging, and treatment monitoring — without the need for imaging or biopsy.",
+    "features": [
+      {
+        "icon": "droplet",
+        "title": "Non-Invasive",
+        "description": "A simple blood draw replaces costly and painful liver biopsies or imaging procedures."
+      },
+      {
+        "icon": "microscope",
+        "title": "Highly Accurate",
+        "description": "Proprietary inflammatory lipid biomarker panel validated against gold-standard histology."
+      },
+      {
+        "icon": "clock",
+        "title": "Early Detection",
+        "description": "Identify disease at early, reversible stages — before symptoms or organ damage appear."
+      },
+      {
+        "icon": "chart",
+        "title": "Disease Staging",
+        "description": "Assess severity and monitor treatment response over time with quantitative scores."
+      }
+    ]
+  },
+  "team": {
+    "headline": "Led by Experts in Diagnostics & Liver Biology",
+    "subheadline": "Our leadership brings together deep expertise in lipid biochemistry, clinical diagnostics, and biotech commercialization.",
+    "cta": { "label": "Meet the Full Team", "href": "/team" }
+  },
+  "cta": {
+    "headline": "Ready to Partner or Invest?",
+    "body": "We are actively seeking strategic partners, collaborators, and investors to help bring this breakthrough diagnostic to patients worldwide.",
+    "primaryCta": { "label": "Get in Touch", "href": "/contact" },
+    "secondaryCta": { "label": "Investor Information", "href": "/investors" }
+  }
+}

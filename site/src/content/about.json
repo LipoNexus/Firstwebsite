@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "About LipoNexus",
+    "description": "Learn about LipoNexus's mission to develop a non-invasive blood test for early detection of Fatty Liver Disease using inflammatory lipid biomarkers."
+  },
+  "hero": {
+    "badge": "Our Story",
+    "headline": "Reimagining How Fatty Liver Disease Is Detected",
+    "body": "Founded in San Diego, California, LipoNexus was born from a simple but powerful insight: the inflammatory lipid landscape of the blood changes meaningfully as fatty liver disease progresses — and those changes can be measured accurately, non-invasively, and affordably."
+  },
+  "mission": {
+    "badge": "Mission",
+    "headline": "Our Mission",
+    "body": "To develop a highly accurate, non-invasive blood test for the early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers — enabling earlier intervention, better outcomes, and a healthier world."
+  },
+  "approach": {
+    "badge": "Science",
+    "headline": "Our Scientific Approach",
+    "body": "Fatty liver disease is characterized by the dysregulation of lipid metabolism and the activation of hepatic inflammatory pathways. LipoNexus has identified a panel of inflammatory lipid biomarkers — including specific oxylipins, lysophospholipids, and ceramide species — that are robustly associated with disease presence, severity, and progression.",
+    "points": [
+      {
+        "title": "Biomarker Discovery",
+        "description": "Untargeted lipidomics in well-characterized patient cohorts to identify candidate biomarkers with strong disease association."
+      },
+      {
+        "title": "Assay Development",
+        "description": "Translation of discovery findings into a targeted, quantitative, clinical-grade blood assay."
+      },
+      {
+        "title": "Clinical Validation",
+        "description": "Rigorous validation against histological ground truth (liver biopsy) across diverse patient populations."
+      },
+      {
+        "title": "Regulatory Pathway",
+        "description": "Strategic planning toward FDA clearance and CMS reimbursement for widespread clinical adoption."
+      }
+    ]
+  },
+  "values": {
+    "badge": "Values",
+    "headline": "What We Stand For",
+    "items": [
+      {
+        "title": "Scientific Rigor",
+        "description": "We hold our work to the highest standards of evidence — every claim is backed by data."
+      },
+      {
+        "title": "Patient Impact",
+        "description": "Everything we build is ultimately in service of patients who deserve earlier answers and better care."
+      },
+      {
+        "title": "Transparency",
+        "description": "We communicate openly with partners, investors, and collaborators about our progress and challenges."
+      },
+      {
+        "title": "Collaboration",
+        "description": "We believe the best science emerges from strong partnerships across academia, industry, and clinical medicine."
+      }
+    ]
+  }
+}

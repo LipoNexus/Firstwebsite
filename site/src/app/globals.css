@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #100CC9;
+  --color-primary-hover: #2A28F8;
+  --color-dark-text: #1A1A2E;
+  --color-body-text: #4A4A5A;
+  --color-light-bg: #F3F3FF;
+  --color-white: #FFFFFF;
+  --color-border: #E2E2F0;
+
+  --font-heading: "Playfair Display", Georgia, serif;
+  --font-body: "Open Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    color: #4A4A5A;
+    background: #FFFFFF;
+    font-family: "Open Sans", system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, serif;
+    color: #1A1A2E;
+    font-weight: 700;
+  }
+}

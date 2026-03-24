@@ -1,0 +1,28 @@
+# LipoNexus
+
+> LipoNexus is developing a highly accurate non-invasive blood test for early detection and assessment of Fatty Liver Disease through inflammatory lipid biomarkers.
+
+## Company
+
+LipoNexus is a San Diego, California-based biotech company focused on liver disease diagnostics.
+
+- **Website**: https://liponexus.com
+- **Email**: partnering@liponexus.com
+- **LinkedIn**: https://www.linkedin.com/company/liponexus
+- **Location**: San Diego, California
+
+## Product
+
+A blood-based in-vitro diagnostic test that uses a proprietary panel of inflammatory lipid biomarkers to detect, stage, and monitor Fatty Liver Disease (NAFLD/MASLD/MASH) non-invasively.
+
+## Pages
+
+- [Home](https://liponexus.com/) — Overview, problem statement, solution summary, team preview
+- [About](https://liponexus.com/about/) — Company story, mission, scientific approach, values
+- [Team](https://liponexus.com/team/) — Leadership team and scientific advisory board
+- [Investors](https://liponexus.com/investors/) — Investment thesis and partnership opportunities
+- [Contact](https://liponexus.com/contact/) — Contact form and direct email
+
+## Contact
+
+For partnerships, investment inquiries, or collaboration: partnering@liponexus.com

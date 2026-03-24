@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Team",
+    "description": "Meet the LipoNexus leadership team — experts in lipid biochemistry, clinical diagnostics, and biotech commercialization."
+  },
+  "hero": {
+    "badge": "Our People",
+    "headline": "The Team Behind the Breakthrough",
+    "body": "LipoNexus brings together world-class scientists, clinicians, and entrepreneurs united by a common goal: transforming how fatty liver disease is detected and managed."
+  },
+  "leadership": {
+    "headline": "Leadership Team",
+    "members": [
+      {
+        "name": "Dr. Sarah Chen",
+        "title": "Chief Executive Officer & Co-Founder",
+        "bio": "Dr. Chen brings over 15 years of experience in biotech leadership and clinical diagnostics. She holds a PhD in Biochemistry from UCSD and completed postdoctoral training at the Salk Institute. Prior to founding LipoNexus, she led diagnostics programs at two San Diego-based biotechs.",
+        "image": "/images/team/sarah-chen.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Dr. Michael Torres",
+        "title": "Chief Scientific Officer & Co-Founder",
+        "bio": "Dr. Torres is a leading expert in lipid metabolism and hepatology. His laboratory at UCSD has published extensively on inflammatory lipid signaling in liver disease. He earned his MD/PhD from Harvard Medical School and completed his hepatology fellowship at Mayo Clinic.",
+        "image": "/images/team/michael-torres.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "Dr. Priya Sharma",
+        "title": "VP, Assay Development",
+        "bio": "Dr. Sharma is an expert in mass spectrometry-based lipidomics and clinical assay development. She previously led assay development at Quest Diagnostics and holds a PhD in Analytical Chemistry from MIT.",
+        "image": "/images/team/priya-sharma.jpg",
+        "linkedin": "#"
+      },
+      {
+        "name": "James Whitfield",
+        "title": "VP, Business Development",
+        "bio": "James has over a decade of experience in healthcare partnerships and commercialization strategy. He previously held business development roles at Illumina and Thermo Fisher Scientific, and holds an MBA from Wharton.",
+        "image": "/images/team/james-whitfield.jpg",
+        "linkedin": "#"
+      }
+    ]
+  },
+  "advisors": {
+    "headline": "Scientific Advisory Board",
+    "members": [
+      {
+        "name": "Prof. David Loomis, MD",
+        "title": "Hepatology, Stanford University Medical Center",
+        "bio": "Leading hepatologist with expertise in NAFLD/NASH clinical trials and disease staging."
+      },
+      {
+        "name": "Prof. Aiko Tanaka, PhD",
+        "title": "Lipidomics, Scripps Research",
+        "bio": "Pioneer in inflammatory lipid signaling and mass spectrometry-based biomarker discovery."
+      },
+      {
+        "name": "Dr. Robert Klein, MD, MBA",
+        "title": "Clinical Diagnostics & Regulatory Strategy",
+        "bio": "Former FDA Division Director with extensive experience in IVD regulatory pathways and reimbursement strategy."
+      }
+    ]
+  }
+}
