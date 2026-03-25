@@ -44,11 +44,11 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
         <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-10 md:pt-10 md:pb-12">
           {/* Full-width headline */}
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-[#1A1A2E] mb-5 text-center lg:text-left">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-[#1A1A2E] mb-5 text-center">
             {hero.headline}
           </h1>
           {/* Full-width subheadline */}
-          <div className="mb-8 text-center lg:text-left">
+          <div className="mb-8 text-center">
             <p className="text-xl md:text-2xl lg:text-3xl font-bold text-[#1A1A2E] mb-3 leading-snug">
               {(hero as { subheadlineStrong?: string }).subheadlineStrong}
             </p>
@@ -117,7 +117,7 @@ export default function HomePage() {
       {/* Problem */}
       <section className="bg-[#F3F3FF] pt-10 pb-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
+          <div className="mb-10 text-center">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white text-[#100CC9] border border-[#E2E2F0] mb-3">
               {problem.badge}
             </span>
@@ -147,7 +147,7 @@ export default function HomePage() {
       {/* Solution */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
+          <div className="mb-10 text-center">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-3">
               {solution.badge}
             </span>
@@ -160,9 +160,9 @@ export default function HomePage() {
             {solution.features.map((feature) => (
               <div
                 key={feature.title}
-                className="group bg-white rounded-2xl p-5 border border-[#E2E2F0] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="group bg-white rounded-2xl p-5 border border-[#E2E2F0] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 text-center"
               >
-                <div className="w-10 h-10 rounded-xl bg-[#F3F3FF] text-[#100CC9] flex items-center justify-center mb-3">
+                <div className="w-10 h-10 rounded-xl bg-[#F3F3FF] text-[#100CC9] flex items-center justify-center mb-3 mx-auto">
                   {icons[feature.icon]}
                 </div>
                 <h3 className="text-sm md:text-base font-bold text-[#1A1A2E] mb-2">{feature.title}</h3>
@@ -178,7 +178,7 @@ export default function HomePage() {
       {/* Leadership Preview */}
       <section className="bg-[#F3F3FF] py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
+          <div className="mb-10 text-center">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1A1A2E] mb-3">
               {team.headline}
             </h2>
