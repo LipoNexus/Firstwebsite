@@ -42,7 +42,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
-        <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
+        <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-24 md:pt-10 md:pb-32">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 max-w-2xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
@@ -77,25 +77,42 @@ export default function HomePage() {
                 </span>
               </div>
               <div className="border-t border-[#E2E2F0] pt-5">
-                <p className="text-xs text-[#6B6B7A] uppercase tracking-wide mb-3">Research &amp; Affiliations</p>
-                <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
                   <Image
                     src="/images/affiliation org logos/UC San Diego.png"
                     alt="UC San Diego"
-                    width={120}
-                    height={32}
-                    className="h-7 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                    width={240}
+                    height={64}
+                    className="h-14 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                   />
                   <Image
                     src="/images/affiliation org logos/VCU.png"
                     alt="Virginia Commonwealth University"
-                    width={80}
-                    height={32}
-                    className="h-7 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                    width={160}
+                    height={64}
+                    className="h-14 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
                   />
-                  <span className="text-xs font-semibold text-[#4A4A5A] italic">Journal of Lipid Research</span>
-                  <span className="text-xs font-semibold text-[#4A4A5A] italic">Hepatology</span>
-                  <span className="text-xs font-semibold text-[#4A4A5A] italic">New England Journal of Medicine</span>
+                  <Image
+                    src="/images/affiliation org logos/Journal of Lipid Research logo.png"
+                    alt="Journal of Lipid Research"
+                    width={160}
+                    height={56}
+                    className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
+                  <Image
+                    src="/images/affiliation org logos/Hepatology logo.png"
+                    alt="Hepatology"
+                    width={160}
+                    height={56}
+                    className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
+                  <Image
+                    src="/images/affiliation org logos/nejm logo.webp"
+                    alt="New England Journal of Medicine"
+                    width={160}
+                    height={56}
+                    className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
                 </div>
               </div>
             </div>
