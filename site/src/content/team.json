@@ -15,21 +15,21 @@
         "name": "Andrew Dennis, MBA",
         "title": "Chief Executive Officer",
         "bio": "Formerly led Growth Programs at Quest Diagnostics, Business Development at Reveal Biosciences (CellCarta), and Sensor Chemistry R&D at Dexcom. Brings deep commercialization and clinical laboratory diagnostics experience.",
-        "image": "/images/team/andrew-dennis.jpg",
+        "image": "",
         "linkedin": "#"
       },
       {
         "name": "Michael Krupp, PhD",
         "title": "VP Business Development",
         "bio": "Founder & CEO of Neurgain Technologies. Formerly CBO at Chugai Pharma USA and Director of Licensing and Development at Pfizer. Brings extensive biopharma partnering and business development expertise.",
-        "image": "/images/team/michael-krupp.jpg",
+        "image": "/images/team/Mike Krupp.png",
         "linkedin": "#"
       },
       {
         "name": "Edward A. Dennis, PhD",
         "title": "Co-Founder",
         "bio": "Distinguished Professor of Chemistry, Biochemistry, and Pharmacology at UC San Diego. Founder of LIPID Metabolites And Pathways Strategy (LIPID MAPS®). A founder of the field of lipidomics and a leader in inflammation, lipid metabolism, and metabolic diseases.",
-        "image": "/images/team/edward-dennis.jpg",
+        "image": "/images/team/Ed Dennis.jpg",
         "linkedin": "#",
         "university": {
           "name": "UC San Diego",
@@ -85,7 +85,7 @@
         "name": "Rohit Loomba, MD, MHSc",
         "title": "Co-Founder",
         "bio": "Professor and Chief, Division of Gastroenterology and Hepatology, Department of Medicine, UC San Diego Health Sciences. Founding Director, MASLD Research Center, UC San Diego. Key Opinion Leader in liver disease and MASH, working with all leading MASH therapeutics companies and clinical practice guidelines boards.",
-        "image": "/images/team/rohit-loomba.jpg",
+        "image": "/images/team/Rohit Loomba.png",
         "linkedin": "#",
         "university": {
           "name": "UC San Diego",
@@ -146,21 +146,21 @@
         "name": "Tim Scott, JD",
         "title": "Advisor",
         "bio": "CEO/President of Biocom California. Founder/President of Pharmatek (Catalent). Founder and CEO of TEGA Therapeutics. Brings extensive life sciences industry and commercialization leadership.",
-        "image": "/images/team/tim-scott.jpg",
+        "image": "/images/team/Tim Scott.jpg",
         "linkedin": "#"
       },
       {
         "name": "Claire Weston, PhD",
         "title": "Advisor",
         "bio": "Founder and CEO of Tactus AI. Founder and CEO of Reveal Biosciences (CellCarta). Brings deep expertise in AI-driven diagnostics and biotech company building.",
-        "image": "/images/team/claire-weston.jpg",
+        "image": "/images/team/Claire Weston.jpg",
         "linkedin": "#"
       },
       {
         "name": "Arun Sanyal, MD",
         "title": "Advisor",
         "bio": "Professor of Medicine, Physiology, and Molecular Pathology in the Division of Gastroenterology at Virginia Commonwealth University (VCU) Medical Center. Director of the Stravitz-Sanyal Institute for Liver Disease and Metabolic Health. Recognized global Key Opinion Leader active in hepatology guideline updates.",
-        "image": "/images/team/arun-sanyal.jpg",
+        "image": "/images/team/Arun Sanyal.jpg",
         "linkedin": "#",
         "university": {
           "name": "Virginia Commonwealth University",

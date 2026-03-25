@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import teamData from "@/content/team.json";
 
 export const metadata: Metadata = {
@@ -74,8 +75,25 @@ function MemberCard({ member, compact = false }: { member: Member; compact?: boo
   if (compact) {
     return (
       <div className="bg-[#F3F3FF] rounded-2xl p-6 border border-[#E2E2F0] hover:shadow-md hover:-translate-y-1 transition-all duration-300">
-        <h3 className="font-bold text-[#1A1A2E] mb-1">{member.name}</h3>
-        <p className="text-xs text-[#100CC9] font-medium mb-3">{member.title}</p>
+        <div className="flex items-center gap-4 mb-3">
+          {member.image ? (
+            <Image
+              src={member.image}
+              alt={member.name}
+              width={56}
+              height={56}
+              className="w-14 h-14 rounded-full object-cover border-2 border-[#E2E2F0] flex-shrink-0"
+            />
+          ) : (
+            <div className="w-14 h-14 rounded-full bg-[#E2E2F0] border-2 border-[#E2E2F0] flex items-center justify-center text-[#100CC9] font-bold text-base flex-shrink-0">
+              {initials}
+            </div>
+          )}
+          <div>
+            <h3 className="font-bold text-[#1A1A2E]">{member.name}</h3>
+            <p className="text-xs text-[#100CC9] font-medium">{member.title}</p>
+          </div>
+        </div>
         <p className="text-sm text-[#4A4A5A] leading-relaxed">{member.bio}</p>
         {member.university && <UniversityBadge university={member.university} />}
         {member.papers && <PapersSection papers={member.papers} />}
@@ -86,12 +104,22 @@ function MemberCard({ member, compact = false }: { member: Member; compact?: boo
   return (
     <div className="bg-white rounded-2xl p-8 border border-[#E2E2F0] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
       <div className="flex items-start gap-5">
-        <div
-          className="w-16 h-16 rounded-full bg-[#F3F3FF] border-2 border-[#E2E2F0] flex items-center justify-center text-[#100CC9] font-bold text-lg flex-shrink-0"
-          aria-hidden="true"
-        >
-          {initials}
-        </div>
+        {member.image ? (
+          <Image
+            src={member.image}
+            alt={member.name}
+            width={80}
+            height={80}
+            className="w-20 h-20 rounded-full object-cover border-2 border-[#E2E2F0] flex-shrink-0"
+          />
+        ) : (
+          <div
+            className="w-20 h-20 rounded-full bg-[#F3F3FF] border-2 border-[#E2E2F0] flex items-center justify-center text-[#100CC9] font-bold text-lg flex-shrink-0"
+            aria-hidden="true"
+          >
+            {initials}
+          </div>
+        )}
         <div className="min-w-0 flex-1">
           <h3 className="font-bold text-[#1A1A2E] text-lg">{member.name}</h3>
           <p className="text-sm text-[#100CC9] font-medium mt-0.5">{member.title}</p>
@@ -179,9 +207,24 @@ export default function TeamPage() {
                   key={advisor.name}
                   className="bg-[#F3F3FF] rounded-2xl p-8 border border-[#E2E2F0] hover:shadow-md transition-all duration-300"
                 >
-                  <div className="mb-1">
-                    <h3 className="font-bold text-[#1A1A2E] text-lg">{advisor.name}</h3>
-                    <p className="text-xs text-[#100CC9] font-medium mt-0.5">{advisor.title}</p>
+                  <div className="flex items-center gap-4 mb-1">
+                    {advisor.image ? (
+                      <Image
+                        src={advisor.image}
+                        alt={advisor.name}
+                        width={72}
+                        height={72}
+                        className="w-18 h-18 rounded-full object-cover border-2 border-[#E2E2F0] flex-shrink-0"
+                      />
+                    ) : (
+                      <div className="w-16 h-16 rounded-full bg-white border-2 border-[#E2E2F0] flex items-center justify-center text-[#100CC9] font-bold text-lg flex-shrink-0">
+                        {advisor.name.split(" ").map((n: string) => n[0]).join("").slice(0, 2)}
+                      </div>
+                    )}
+                    <div>
+                      <h3 className="font-bold text-[#1A1A2E] text-lg">{advisor.name}</h3>
+                      <p className="text-xs text-[#100CC9] font-medium mt-0.5">{advisor.title}</p>
+                    </div>
                   </div>
                   {advisor.university && <UniversityBadge university={advisor.university} />}
                   <p className="text-sm text-[#4A4A5A] leading-relaxed mt-3">{advisor.bio}</p>
