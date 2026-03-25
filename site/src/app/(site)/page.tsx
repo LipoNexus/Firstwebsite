@@ -42,8 +42,8 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative bg-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
-        <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-24 md:pt-10 md:pb-32">
-          <div className="flex flex-col lg:flex-row items-center gap-12">
+        <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-10 md:pt-10 md:pb-12">
+          <div className="flex flex-col lg:flex-row items-start gap-12">
             <div className="flex-1 max-w-2xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
                 {hero.headline}
@@ -98,7 +98,7 @@ export default function HomePage() {
             </div>
             <div className="flex-shrink-0 flex justify-center">
               <iframe
-                src="/images/liver_slider_v10.html"
+                src="/images/liver_slider_v18.html"
                 title="Liver Health Visualizer"
                 width="480"
                 height="580"
@@ -111,7 +111,7 @@ export default function HomePage() {
       </section>
 
       {/* Problem */}
-      <section className="bg-[#F3F3FF] py-24">
+      <section className="bg-[#F3F3FF] pt-12 pb-24">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-2xl mb-12">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white text-[#100CC9] border border-[#E2E2F0] mb-4">
