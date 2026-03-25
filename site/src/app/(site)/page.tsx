@@ -44,38 +44,39 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
         <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-10 md:pt-10 md:pb-12">
           {/* Full-width headline */}
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-[#1A1A2E] mb-6 text-center lg:text-left">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-[#1A1A2E] mb-5 text-center lg:text-left">
             {hero.headline}
           </h1>
-          {/* Two-column layout */}
+          {/* Full-width subheadline */}
+          <div className="mb-8 text-center lg:text-left">
+            <p className="text-xl md:text-2xl lg:text-3xl font-bold text-[#1A1A2E] mb-3 leading-snug">
+              {(hero as { subheadlineStrong?: string }).subheadlineStrong}
+            </p>
+            <p className="text-sm md:text-base lg:text-lg text-[#4A4A5A] leading-relaxed">
+              {hero.subheadline}
+            </p>
+          </div>
+          {/* Two-column: stacked buttons left, iframe right */}
           <div className="flex flex-col lg:flex-row items-start gap-10">
-            <div className="flex-1 text-center lg:text-left">
-              <div className="text-sm md:text-base lg:text-lg text-[#4A4A5A] leading-relaxed mb-6 space-y-3">
-                <p><strong className="text-[#1A1A2E]">{(hero as { subheadlineStrong?: string }).subheadlineStrong}</strong></p>
-                <p>{hero.subheadline}</p>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-3 mb-5 justify-center lg:justify-start">
-                <Link
-                  href={hero.cta.href}
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-[#100CC9] text-white text-sm font-medium hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20"
-                >
-                  {hero.cta.label}
-                </Link>
-                <Link
-                  href={hero.secondaryCta.href}
-                  className="inline-flex items-center justify-center px-6 py-3 rounded-full border border-[#E2E2F0] text-[#1A1A2E] text-sm font-medium hover:border-[#100CC9] hover:text-[#100CC9] transition-colors duration-200"
-                >
-                  {hero.secondaryCta.label}
-                </Link>
-              </div>
-              <div className="flex flex-row gap-3 mb-6 flex-wrap justify-center lg:justify-start">
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] whitespace-nowrap">
-                  {hero.badge}
-                </span>
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] whitespace-nowrap">
-                  For Concierge, Clinical Medicine, and Therapy Providers
-                </span>
-              </div>
+            <div className="flex-1 flex flex-col gap-3 w-full">
+              <Link
+                href={hero.cta.href}
+                className="flex items-center justify-center px-8 py-4 rounded-full bg-[#100CC9] text-white text-base font-semibold hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20 w-full"
+              >
+                {hero.cta.label}
+              </Link>
+              <Link
+                href={hero.secondaryCta.href}
+                className="flex items-center justify-center px-8 py-4 rounded-full border-2 border-[#E2E2F0] text-[#1A1A2E] text-base font-semibold hover:border-[#100CC9] hover:text-[#100CC9] transition-colors duration-200 w-full"
+              >
+                {hero.secondaryCta.label}
+              </Link>
+              <span className="flex items-center justify-center px-8 py-4 rounded-full text-sm font-semibold bg-[#F3F3FF] text-[#100CC9] border-2 border-[#E2E2F0] w-full text-center">
+                {hero.badge}
+              </span>
+              <span className="flex items-center justify-center px-8 py-4 rounded-full text-sm font-semibold bg-[#F3F3FF] text-[#100CC9] border-2 border-[#E2E2F0] w-full text-center">
+                For Concierge, Clinical Medicine, and Therapy Providers
+              </span>
             </div>
             <div className="flex-shrink-0 flex justify-center w-full lg:w-auto">
               <iframe
