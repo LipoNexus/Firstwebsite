@@ -56,9 +56,9 @@ export default function HomePage() {
               {hero.subheadline}
             </p>
           </div>
-          {/* Two-column: stacked buttons left, iframe right */}
-          <div className="flex flex-col lg:flex-row items-start gap-10">
-            <div className="flex-1 flex flex-col gap-3 w-full">
+          {/* Two-column: stacked buttons left, iframe right — centered on desktop, iframe above buttons on mobile */}
+          <div className="flex flex-col lg:flex-row items-start gap-10 lg:justify-center">
+            <div className="order-2 lg:order-1 flex flex-col gap-3 w-full lg:w-80">
               <Link
                 href={hero.cta.href}
                 className="flex items-center justify-center px-8 py-4 rounded-full bg-[#100CC9] text-white text-base font-semibold hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20 w-full"
@@ -78,7 +78,7 @@ export default function HomePage() {
                 For Concierge, Clinical Medicine, and Therapy Providers
               </span>
             </div>
-            <div className="flex-shrink-0 flex justify-center w-full lg:w-auto">
+            <div className="order-1 lg:order-2 flex-shrink-0 flex justify-center w-full lg:w-auto">
               <iframe
                 src="/images/liver_slider_v18.html"
                 title="Liver Health Visualizer"
