@@ -76,37 +76,40 @@ export default function HomePage() {
                   For Concierge, Clinical Medicine, and Therapy Providers
                 </span>
               </div>
-              <div className="border-t border-[#E2E2F0] pt-5 overflow-hidden">
-                <div className="flex items-center animate-marquee" style={{width: "max-content"}}>
-                  {[0, 1].map((copy) => (
-                    <div key={copy} className="flex items-center gap-x-10 pr-10">
-                      <div className="flex items-center gap-x-2 opacity-70 hover:opacity-100 transition-opacity">
-                        <Image src="/images/affiliation org logos/UC San Diego.png" alt="UC San Diego" width={120} height={56} className="h-14 w-auto object-contain" />
-                        <span className="text-sm font-semibold text-[#4A4A5A] whitespace-nowrap">UC San Diego</span>
-                      </div>
-                      <div className="flex items-center gap-x-2 opacity-70 hover:opacity-100 transition-opacity">
-                        <Image src="/images/affiliation org logos/VCU.png" alt="VCU" width={80} height={56} className="h-14 w-auto object-contain" />
-                        <span className="text-sm font-semibold text-[#4A4A5A] whitespace-nowrap">VCU</span>
-                      </div>
-                      <Image src="/images/affiliation org logos/Journal of Lipid Research logo.png" alt="Journal of Lipid Research" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
-                      <Image src="/images/affiliation org logos/Hepatology logo.png" alt="Hepatology" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
-                      <Image src="/images/affiliation org logos/nejm logo.webp" alt="New England Journal of Medicine" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
             <div className="flex-shrink-0 flex justify-center">
               <iframe
                 src="/images/liver_slider_v18.html"
                 title="Liver Health Visualizer"
                 width="480"
-                height="580"
+                height="660"
                 className="w-72 lg:w-[480px] rounded-2xl border-0"
-                style={{ height: "580px" }}
+                style={{ height: "660px" }}
+                scrolling="no"
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Affiliation Marquee */}
+      <section className="bg-white border-t border-b border-[#E2E2F0] py-4 overflow-hidden">
+        <div className="flex items-center animate-marquee" style={{width: "max-content"}}>
+          {[0, 1].map((copy) => (
+            <div key={copy} className="flex items-center gap-x-12 px-12">
+              <div className="flex items-center gap-x-2 opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/images/affiliation org logos/UC San Diego.png" alt="UC San Diego" width={120} height={56} className="h-14 w-auto object-contain" />
+                <span className="text-sm font-semibold text-[#4A4A5A] whitespace-nowrap">UC San Diego</span>
+              </div>
+              <div className="flex items-center gap-x-2 opacity-70 hover:opacity-100 transition-opacity">
+                <Image src="/images/affiliation org logos/VCU.png" alt="VCU" width={80} height={56} className="h-14 w-auto object-contain" />
+                <span className="text-sm font-semibold text-[#4A4A5A] whitespace-nowrap">VCU</span>
+              </div>
+              <Image src="/images/affiliation org logos/Journal of Lipid Research logo.png" alt="Journal of Lipid Research" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              <Image src="/images/affiliation org logos/Hepatology logo.png" alt="Hepatology" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
+              <Image src="/images/affiliation org logos/nejm logo.webp" alt="New England Journal of Medicine" width={160} height={52} className="h-12 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
+            </div>
+          ))}
         </div>
       </section>
 
