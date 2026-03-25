@@ -8,7 +8,12 @@
     "headline": "The Root-Cause Blood Test Your Metabolic Patients Need",
     "subheadline": "Give your patients the first non-invasive, highly accurate blood test for Fatty Liver Disease (MASLD). Our 15-lipid panel directly measures the inflammatory lipid biomarkers driving metabolic dysfunction — 95%+ accuracy, 99% specificity, via a simple blood draw.",
     "cta": { "label": "Partner With Us", "href": "/contact" },
-    "secondaryCta": { "label": "See the Science", "href": "/about" }
+    "secondaryCta": { "label": "See the Science", "href": "/about" },
+    "audienceButtons": [
+      { "label": "For Functional Medicine Practitioners", "href": "/contact" },
+      { "label": "For Concierge and Clinical Medicine Providers", "href": "/contact" },
+      { "label": "For Therapy Providers", "href": "/contact" }
+    ]
   },
   "problem": {
     "badge": "The Clinical Gap",
