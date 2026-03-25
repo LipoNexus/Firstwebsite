@@ -97,13 +97,13 @@ export default function HomePage() {
               </div>
             </div>
             <div className="flex-shrink-0 flex justify-center">
-              <Image
-                src="/images/liver pic 2.png"
-                alt="Liver illustration"
-                width={400}
-                height={400}
-                className="w-72 h-72 lg:w-96 lg:h-96 object-contain drop-shadow-2xl"
-                priority
+              <iframe
+                src="/images/liver_slider_v10.html"
+                title="Liver Health Visualizer"
+                width="480"
+                height="580"
+                className="w-72 lg:w-[480px] rounded-2xl border-0"
+                style={{ height: "580px" }}
               />
             </div>
           </div>
