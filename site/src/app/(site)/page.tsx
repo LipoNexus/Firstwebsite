@@ -45,14 +45,6 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 max-w-2xl">
-              <div className="flex flex-col items-start gap-2 mb-6">
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
-                  {hero.badge}
-                </span>
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
-                  For Concierge, Clinical Medicine, and Therapy Providers
-                </span>
-              </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
                 {hero.headline}
               </h1>
@@ -62,7 +54,7 @@ export default function HomePage() {
                   <p key={i}>{para}</p>
                 ))}
               </div>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <Link
                   href={hero.cta.href}
                   className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-[#100CC9] text-white font-medium hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20"
@@ -76,10 +68,40 @@ export default function HomePage() {
                   {hero.secondaryCta.label}
                 </Link>
               </div>
+              <div className="flex flex-wrap gap-2 mb-8">
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+                  {hero.badge}
+                </span>
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+                  For Concierge, Clinical Medicine, and Therapy Providers
+                </span>
+              </div>
+              <div className="border-t border-[#E2E2F0] pt-5">
+                <p className="text-xs text-[#6B6B7A] uppercase tracking-wide mb-3">Research &amp; Affiliations</p>
+                <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                  <Image
+                    src="/images/affiliation org logos/UC San Diego.png"
+                    alt="UC San Diego"
+                    width={120}
+                    height={32}
+                    className="h-7 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
+                  <Image
+                    src="/images/affiliation org logos/VCU.png"
+                    alt="Virginia Commonwealth University"
+                    width={80}
+                    height={32}
+                    className="h-7 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
+                  />
+                  <span className="text-xs font-semibold text-[#4A4A5A] italic">Journal of Lipid Research</span>
+                  <span className="text-xs font-semibold text-[#4A4A5A] italic">Hepatology</span>
+                  <span className="text-xs font-semibold text-[#4A4A5A] italic">New England Journal of Medicine</span>
+                </div>
+              </div>
             </div>
             <div className="flex-shrink-0 flex justify-center">
               <Image
-                src="/images/liver pic completely round.png"
+                src="/images/liver pic 2.png"
                 alt="Liver illustration"
                 width={400}
                 height={400}
