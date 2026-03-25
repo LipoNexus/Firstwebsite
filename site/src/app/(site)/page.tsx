@@ -67,7 +67,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href={hero.secondaryCta.href}
-                className="flex items-center justify-center px-8 py-4 rounded-full border-2 border-[#E2E2F0] text-[#1A1A2E] text-base font-semibold hover:border-[#100CC9] hover:text-[#100CC9] transition-colors duration-200 w-full"
+                className="flex items-center justify-center px-8 py-4 rounded-full bg-white text-[#100CC9] text-base font-semibold border-2 border-[#100CC9] hover:bg-[#F3F3FF] transition-colors duration-200 shadow-lg shadow-blue-900/10 w-full"
               >
                 {hero.secondaryCta.label}
               </Link>
@@ -117,7 +117,7 @@ export default function HomePage() {
       {/* Problem */}
       <section className="bg-[#F3F3FF] pt-10 pb-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="max-w-2xl mb-10">
+          <div className="mb-10">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white text-[#100CC9] border border-[#E2E2F0] mb-3">
               {problem.badge}
             </span>
@@ -147,7 +147,7 @@ export default function HomePage() {
       {/* Solution */}
       <section className="bg-white py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="max-w-2xl mb-10">
+          <div className="mb-10">
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-3">
               {solution.badge}
             </span>
@@ -178,11 +178,11 @@ export default function HomePage() {
       {/* Leadership Preview */}
       <section className="bg-[#F3F3FF] py-16">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-10">
+          <div className="mb-10">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1A1A2E] mb-3">
               {team.headline}
             </h2>
-            <p className="text-sm md:text-base text-[#4A4A5A] max-w-xl mx-auto">{team.subheadline}</p>
+            <p className="text-sm md:text-base text-[#4A4A5A]">{team.subheadline}</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {teamData.leadership.members.filter((m) => m.name !== "Michael Krupp, PhD").map((member) => (
