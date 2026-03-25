@@ -56,9 +56,12 @@ export default function HomePage() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
                 {hero.headline}
               </h1>
-              <p className="text-lg text-[#4A4A5A] leading-relaxed mb-8 max-w-2xl">
-                {hero.subheadline}
-              </p>
+              <div className="text-lg text-[#4A4A5A] leading-relaxed mb-8 max-w-2xl space-y-3">
+                <p><strong className="text-[#1A1A2E]">{(hero as { subheadlineStrong?: string }).subheadlineStrong}</strong></p>
+                {hero.subheadline.split("\n\n").map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href={hero.cta.href}
@@ -76,7 +79,7 @@ export default function HomePage() {
             </div>
             <div className="flex-shrink-0 flex justify-center">
               <Image
-                src="/images/round liver image.png"
+                src="/images/liver pic completely round.png"
                 alt="Liver illustration"
                 width={400}
                 height={400}
@@ -164,9 +167,19 @@ export default function HomePage() {
                 key={member.name}
                 className="bg-white rounded-2xl p-6 border border-[#E2E2F0] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 text-center"
               >
-                <div className="w-16 h-16 rounded-full bg-[#F3F3FF] border-2 border-[#E2E2F0] mx-auto mb-4 flex items-center justify-center text-[#100CC9] font-bold text-xl">
-                  {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
-                </div>
+                {member.image ? (
+                  <Image
+                    src={member.image}
+                    alt={member.name}
+                    width={64}
+                    height={64}
+                    className="w-16 h-16 rounded-full object-cover border-2 border-[#E2E2F0] mx-auto mb-4"
+                  />
+                ) : (
+                  <div className="w-16 h-16 rounded-full bg-[#F3F3FF] border-2 border-[#E2E2F0] mx-auto mb-4 flex items-center justify-center text-[#100CC9] font-bold text-xl">
+                    {member.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
+                  </div>
+                )}
                 <h3 className="font-bold text-[#1A1A2E] text-sm">{member.name}</h3>
                 <p className="text-xs text-[#100CC9] mt-1">{member.title}</p>
               </div>
