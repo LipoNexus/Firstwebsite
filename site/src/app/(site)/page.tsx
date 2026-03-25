@@ -57,11 +57,11 @@ export default function HomePage() {
             </p>
           </div>
           {/* Two-column: stacked buttons left, iframe right — centered on desktop, iframe above buttons on mobile */}
-          <div className="flex flex-col lg:flex-row items-start gap-2.5 lg:gap-10 lg:justify-center">
+          <div className="flex flex-col lg:flex-row items-start gap-0 lg:gap-20 lg:justify-center">
             <div className="order-2 lg:order-1 flex flex-col gap-3 lg:gap-0 w-full lg:w-80 lg:h-[600px] lg:pt-[120px] lg:pb-[120px] lg:justify-between">
               <Link
                 href={hero.cta.href}
-                className="flex items-center justify-center px-8 py-4 rounded-full bg-[#100CC9] text-white text-base font-semibold hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20 w-full"
+                className="flex items-center justify-center px-8 py-4 rounded-full bg-white text-[#100CC9] text-base font-semibold border-2 border-[#100CC9] hover:bg-[#F3F3FF] transition-colors duration-200 shadow-lg shadow-blue-900/10 w-full"
               >
                 {hero.cta.label}
               </Link>
@@ -71,11 +71,11 @@ export default function HomePage() {
               >
                 {hero.secondaryCta.label}
               </Link>
-              <span className="flex items-center justify-center px-8 py-4 rounded-full text-sm font-semibold bg-[#F3F3FF] text-[#100CC9] border-2 border-[#E2E2F0] w-full text-center">
+              <span className="flex items-center justify-center px-8 py-4 rounded-full text-sm font-semibold bg-[#100CC9] text-white border-2 border-[#100CC9] w-full text-center">
                 {hero.badge}
               </span>
               <span className="flex items-center justify-center px-8 py-4 rounded-full text-sm font-semibold bg-[#F3F3FF] text-[#100CC9] border-2 border-[#E2E2F0] w-full text-center">
-                For Concierge, Clinical Medicine, and Therapy Providers
+                For Concierge Medicine, Clinical Medicine, and Therapy Providers
               </span>
             </div>
             <div className="order-1 lg:order-2 flex-shrink-0 flex justify-center w-full lg:w-auto">
