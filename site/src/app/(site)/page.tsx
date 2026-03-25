@@ -83,9 +83,7 @@ export default function HomePage() {
                 src="/images/liver_slider_v18.html"
                 title="Liver Health Visualizer"
                 width="480"
-                height="600"
-                className="w-72 lg:w-[420px] rounded-2xl border-0"
-                style={{ height: "600px" }}
+                className="w-72 lg:w-[420px] rounded-2xl border-0 h-[512px] lg:h-[600px]"
                 scrolling="no"
               />
             </div>
