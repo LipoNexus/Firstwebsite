@@ -50,9 +50,7 @@ export default function HomePage() {
               </h1>
               <div className="text-lg text-[#4A4A5A] leading-relaxed mb-8 max-w-2xl space-y-3">
                 <p><strong className="text-[#1A1A2E]">{(hero as { subheadlineStrong?: string }).subheadlineStrong}</strong></p>
-                {hero.subheadline.split("\n\n").map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
+                <p>{hero.subheadline}</p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <Link
@@ -68,11 +66,11 @@ export default function HomePage() {
                   {hero.secondaryCta.label}
                 </Link>
               </div>
-              <div className="flex flex-wrap gap-2 mb-8">
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+              <div className="flex flex-row gap-4 mb-8 flex-wrap">
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] whitespace-nowrap">
                   {hero.badge}
                 </span>
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] whitespace-nowrap">
                   For Concierge, Clinical Medicine, and Therapy Providers
                 </span>
               </div>
