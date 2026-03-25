@@ -73,17 +73,6 @@ export default function HomePage() {
                   {hero.secondaryCta.label}
                 </Link>
               </div>
-              <div className="flex flex-wrap gap-3 mt-4">
-                {hero.audienceButtons.map((btn) => (
-                  <Link
-                    key={btn.label}
-                    href={btn.href}
-                    className="inline-flex items-center justify-center px-5 py-2 rounded-full border border-[#100CC9] text-[#100CC9] text-sm font-medium hover:bg-[#F3F3FF] transition-colors duration-200"
-                  >
-                    {btn.label}
-                  </Link>
-                ))}
-              </div>
             </div>
             <div className="flex-shrink-0 flex justify-center">
               <Image
