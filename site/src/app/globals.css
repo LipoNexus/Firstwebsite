@@ -20,6 +20,12 @@
     font-size: 15px;
   }
 
+  @media (min-width: 768px) {
+    html {
+      font-size: 16.5px;
+    }
+  }
+
   body {
     color: #4A4A5A;
     background: #FFFFFF;

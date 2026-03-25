@@ -18,7 +18,7 @@
     "stats": [
       { "value": "80M", "label": "Americans affected by MASLD" },
       { "value": "90%", "label": "Go undiagnosed today" },
-      { "value": "95%+", "label": "Test accuracy" },
+      { "value": "95%", "label": "Test accuracy" },
       { "value": "100%", "label": "Reversible when caught early" }
     ]
   },

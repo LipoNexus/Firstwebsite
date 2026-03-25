@@ -44,17 +44,17 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_#F3F3FF_0%,_transparent_60%)] pointer-events-none" />
         <div className="relative max-w-6xl mx-auto px-6 pt-8 pb-10 md:pt-10 md:pb-12">
           {/* Full-width headline */}
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-[#1A1A2E] mb-6">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight text-[#1A1A2E] mb-6 text-center lg:text-left">
             {hero.headline}
           </h1>
           {/* Two-column layout */}
           <div className="flex flex-col lg:flex-row items-start gap-10">
-            <div className="flex-1">
-              <div className="text-sm md:text-base text-[#4A4A5A] leading-relaxed mb-6 space-y-3">
+            <div className="flex-1 text-center lg:text-left">
+              <div className="text-sm md:text-base lg:text-lg text-[#4A4A5A] leading-relaxed mb-6 space-y-3">
                 <p><strong className="text-[#1A1A2E]">{(hero as { subheadlineStrong?: string }).subheadlineStrong}</strong></p>
                 <p>{hero.subheadline}</p>
               </div>
-              <div className="flex flex-col sm:flex-row gap-3 mb-5">
+              <div className="flex flex-col sm:flex-row gap-3 mb-5 justify-center lg:justify-start">
                 <Link
                   href={hero.cta.href}
                   className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-[#100CC9] text-white text-sm font-medium hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20"
@@ -68,7 +68,7 @@ export default function HomePage() {
                   {hero.secondaryCta.label}
                 </Link>
               </div>
-              <div className="flex flex-row gap-3 mb-6 flex-wrap">
+              <div className="flex flex-row gap-3 mb-6 flex-wrap justify-center lg:justify-start">
                 <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] whitespace-nowrap">
                   {hero.badge}
                 </span>
@@ -77,13 +77,13 @@ export default function HomePage() {
                 </span>
               </div>
             </div>
-            <div className="flex-shrink-0 flex justify-center">
+            <div className="flex-shrink-0 flex justify-center w-full lg:w-auto">
               <iframe
                 src="/images/liver_slider_v18.html"
                 title="Liver Health Visualizer"
                 width="480"
                 height="600"
-                className="w-64 lg:w-[420px] rounded-2xl border-0"
+                className="w-72 lg:w-[420px] rounded-2xl border-0"
                 style={{ height: "600px" }}
                 scrolling="no"
               />
@@ -120,10 +120,10 @@ export default function HomePage() {
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white text-[#100CC9] border border-[#E2E2F0] mb-3">
               {problem.badge}
             </span>
-            <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A2E] mb-3">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1A1A2E] mb-3">
               {problem.headline}
             </h2>
-            <p className="text-sm text-[#4A4A5A] leading-relaxed">{problem.body}</p>
+            <p className="text-sm md:text-base text-[#4A4A5A] leading-relaxed">{problem.body}</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {problem.stats.map((stat) => (
@@ -131,7 +131,7 @@ export default function HomePage() {
                 key={stat.label}
                 className="bg-white rounded-2xl p-5 border border-[#E2E2F0] shadow-sm text-center"
               >
-                <div className="text-2xl font-bold text-[#100CC9] font-[var(--font-mono)] mb-1">
+                <div className="text-2xl md:text-3xl font-bold text-[#100CC9] font-[var(--font-mono)] mb-1">
                   {stat.value}
                 </div>
                 <div className="text-xs text-[#4A4A5A] leading-snug">
@@ -150,10 +150,10 @@ export default function HomePage() {
             <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-3">
               {solution.badge}
             </span>
-            <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A2E] mb-3">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1A1A2E] mb-3">
               {solution.headline}
             </h2>
-            <p className="text-sm text-[#4A4A5A] leading-relaxed">{solution.body}</p>
+            <p className="text-sm md:text-base text-[#4A4A5A] leading-relaxed">{solution.body}</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {solution.features.map((feature) => (
@@ -164,8 +164,8 @@ export default function HomePage() {
                 <div className="w-10 h-10 rounded-xl bg-[#F3F3FF] text-[#100CC9] flex items-center justify-center mb-3">
                   {icons[feature.icon]}
                 </div>
-                <h3 className="text-sm font-bold text-[#1A1A2E] mb-2">{feature.title}</h3>
-                <p className="text-xs text-[#4A4A5A] leading-relaxed">
+                <h3 className="text-sm md:text-base font-bold text-[#1A1A2E] mb-2">{feature.title}</h3>
+                <p className="text-xs md:text-sm text-[#4A4A5A] leading-relaxed">
                   {feature.description}
                 </p>
               </div>
@@ -178,13 +178,13 @@ export default function HomePage() {
       <section className="bg-[#F3F3FF] py-16">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#1A1A2E] mb-3">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1A1A2E] mb-3">
               {team.headline}
             </h2>
-            <p className="text-sm text-[#4A4A5A] max-w-xl mx-auto">{team.subheadline}</p>
+            <p className="text-sm md:text-base text-[#4A4A5A] max-w-xl mx-auto">{team.subheadline}</p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {teamData.leadership.members.map((member) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {teamData.leadership.members.filter((m) => m.name !== "Michael Krupp, PhD").map((member) => (
               <div
                 key={member.name}
                 className="bg-white rounded-2xl p-5 border border-[#E2E2F0] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 text-center"
@@ -224,10 +224,10 @@ export default function HomePage() {
       {/* CTA Banner */}
       <section className="bg-[#100CC9] py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3">
             {cta.headline}
           </h2>
-          <p className="text-blue-200 mb-6 text-sm leading-relaxed max-w-2xl mx-auto">
+          <p className="text-blue-200 mb-6 text-sm md:text-base leading-relaxed max-w-2xl mx-auto">
             {cta.body}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
