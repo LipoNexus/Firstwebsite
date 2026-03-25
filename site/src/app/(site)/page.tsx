@@ -45,9 +45,14 @@ export default function HomePage() {
         <div className="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 max-w-2xl">
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0] mb-6">
-                {hero.badge}
-              </span>
+              <div className="flex flex-col items-start gap-2 mb-6">
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+                  {hero.badge}
+                </span>
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#F3F3FF] text-[#100CC9] border border-[#E2E2F0]">
+                  For Concierge, Clinical Medicine, and Therapy Providers
+                </span>
+              </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#1A1A2E] mb-6">
                 {hero.headline}
               </h1>
