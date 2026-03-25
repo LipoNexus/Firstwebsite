@@ -57,8 +57,8 @@ export default function HomePage() {
             </p>
           </div>
           {/* Two-column: stacked buttons left, iframe right — centered on desktop, iframe above buttons on mobile */}
-          <div className="flex flex-col lg:flex-row items-start gap-10 lg:justify-center">
-            <div className="order-2 lg:order-1 flex flex-col gap-3 w-full lg:w-80">
+          <div className="flex flex-col lg:flex-row items-start gap-2.5 lg:gap-10 lg:justify-center">
+            <div className="order-2 lg:order-1 flex flex-col gap-3 lg:gap-0 w-full lg:w-80 lg:h-[600px] lg:pt-[120px] lg:pb-[120px] lg:justify-between">
               <Link
                 href={hero.cta.href}
                 className="flex items-center justify-center px-8 py-4 rounded-full bg-[#100CC9] text-white text-base font-semibold hover:bg-[#2A28F8] transition-colors duration-200 shadow-lg shadow-blue-900/20 w-full"
